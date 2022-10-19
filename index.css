@@ -130,7 +130,7 @@ nav {
   width: 100%;
   height: 11vh;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 400;
   text-align: center;
   background-color: var(--main-gray);
@@ -143,6 +143,7 @@ nav {
 }
 
 .btn-work{
+    width: 10%;
     border: none;
     background-color: var(--main-gray);
     font-size: 1.4rem;
@@ -230,4 +231,207 @@ nav {
 
 .social-link:hover{
     transition: transform 0.3s ease-out;
+}
+
+
+/* 
+----------------------------------------
+----------------------------------------
+----------------------------------------
+----------------------------------------
+----------------------------------------
+----------------------------------------
+----------------------------------------
+
+*/
+
+
+
+
+@media  screen and (max-width: 980px) {
+  nav{
+    width: 100%;
+  }
+  .nav-link{
+    font-size: 1.78rem;
+  }
+
+  .home-port{
+    width: 100%;
+  }
+
+  .title{
+    font-size: 3rem;
+  }
+  .sub-title{
+    font-size: 2.4rem;
+  }
+
+  .work-port{
+    width: 100%;
+  }
+
+  .heading-work{
+    font-size: 2rem;
+    border-bottom: 4px solid var(--main-white);
+    margin: auto;
+  }
+
+  .work-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact{
+    width: 100%;
+    height: auto;
+  }
+  .contact-heading{
+    font-size: 2rem;
+  }
+
+  .contact-para{
+    font-size: 1.7rem;
+  }
+
+  .footer-heading{
+    font-size: 1rem;
+  }
+
+  .footer-para{
+    font-size: 1rem;
+  }
+
+  .social-img{
+    height: 1.7em;
+    width: 1.7em;
+  }
+
+
+}
+
+
+
+/*  ---------------       
+    |         
+    |
+    |
+    |--------------|
+                   |
+                   |
+                   |
+                   |
+    ---------------|
+
+
+
+*/
+@media screen and (max-width: 560px) {
+  nav{
+    width: 100%;
+  }
+
+  .nav-link{
+    font-size: 1.5rem;
+  }
+  
+  .home-port{
+    width: 100%;
+  }
+
+  .title{
+    font-size: 2rem;
+  }
+
+  .sub-title{
+    font-size: 1.7rem;
+  }
+
+  .work-port{
+    width: 100%;
+  }
+
+  .heading-work{
+    font-size: 2rem;
+    border: none;
+  }
+
+  .work-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .work-des{
+    font-size: 1.2rem;
+  }
+
+  .pro{
+    height: 50vh;
+  }
+
+  .contact{
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-heading{
+    font-size: 1.4rem;
+  }
+
+  .contact-para{
+    font-size: 1.4rem;
+  }
+
+  .footer-heading{
+    font-size: 1rem;
+  }
+
+  .footer-para{
+    font-size: 1rem;
+  }
+
+  .social-img{
+    height: 1.5em;
+    width: 1.5em;
+  }
+
+ 
+
+}
+
+@media screen and (max-width:500px) {
+  *{
+    width: 100%;
+  }
+
+  .work-btn{
+    width: 30%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .social-img{
+    height: 1em;
+    width: 1em;
+  }
 }
